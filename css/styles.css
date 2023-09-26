@@ -125,6 +125,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .item-description {
@@ -239,6 +240,7 @@ body {
   background-size: cover;
   background-position: center;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-container {
   display: flex;
