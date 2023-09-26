@@ -546,6 +546,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 72px 24px 24px 24px;
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
@@ -584,7 +585,6 @@ body {
 }
 .modal-caption {
   display: block;
-  margin-top: 72px;
   margin-bottom: 16px;
   color: var(--dark);
   text-align: center;
@@ -598,14 +598,15 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  padding: 24px;
   padding-top: 0;
+}
+.modal-field-wrapper {
+  margin-bottom: 8px;
 }
 .modal-label {
 }
 .modal-field {
   position: relative;
-  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
