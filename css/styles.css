@@ -657,12 +657,22 @@ body {
   align-items: center;
 }
 .modal-agreement-input {
+  appearance: none;
 }
 .modal-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
+  outline: none;
 }
 .modal-checkbox-icon {
 }
+
 .modal-agreement-text {
 }
 .modal-agreement-link {
