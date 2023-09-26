@@ -4,7 +4,7 @@
   --pressed-state: #404bbf;
   --success: #31d0aa;
   --text: #434455;
-  --subtle-text: #8e8f99;
+  --subtle-text: rgb(142, 143, 153);
   --accent: #e7e9fc;
   --light: #f4f4fd;
   --white-background: #ffffff;
@@ -532,7 +532,7 @@ body {
 
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
+  background-color: #2e2f4266;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -581,5 +581,97 @@ body {
 }
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-caption {
+  display: block;
+  margin-top: 72px;
+  margin-bottom: 16px;
+  color: var(--dark);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.modal-form {
+  color: var(--subtle-text);
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  padding: 24px;
+  padding-top: 0;
+}
+.modal-label {
+}
+.modal-field {
+  position: relative;
+  margin-bottom: 8px;
+}
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  outline: none;
+  padding: 11px 38px;
+}
+.modal-input:focus-within,
+.modal-comment-field:focus-within {
+  border-color: var(--primary-brand);
+}
+.modal-input:focus-within + .modal-icon {
+  fill: var(--primary-brand);
+}
+.modal-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  fill: var(--dark);
+}
+
+.modal-comment {
+  margin-bottom: 16px;
+}
+.modal-comment-field::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+}
+.modal-comment-field {
+  display: block;
+  width: 100%;
+  height: 120px;
+  padding: 8px 16px;
+
+  font-size: 18px;
+
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  resize: none;
+  outline: none;
+}
+.modal-agreement {
+  display: flex;
+  align-items: center;
+}
+.modal-agreement-input {
+}
+.modal-checkbox {
+  margin-right: 8px;
+}
+.modal-checkbox-icon {
+}
+.modal-agreement-text {
+}
+.modal-agreement-link {
+  color: var(--primary-brand);
+  margin-left: 4px;
+}
+.form-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 24px;
 }
 /* ======================/MODAL WINDOW======================= */
