@@ -125,7 +125,6 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .item-description {
@@ -277,6 +276,9 @@ body {
   background: var(--light);
   margin-bottom: 8px;
 }
+.benefits-title {
+  margin-bottom: 8px;
+}
 .benefits-item {
   width: 264px;
 }
@@ -426,6 +428,9 @@ body {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+.projects-title {
+  margin-bottom: 8px;
+}
 .projects-item {
   width: calc((100% - 48px) / 3);
 }
@@ -525,7 +530,7 @@ body {
   fill: var(--light);
 }
 .footer-middle {
-  padding-right: 80px;
+  margin-right: 80px;
 }
 .subscribe-caption {
   margin-bottom: 16px;
